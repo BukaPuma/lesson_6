@@ -1,0 +1,15 @@
+@mixin header($p:15px) {
+    font-size: $p;
+    margin: $p * 5;
+}
+
+body {
+    background-color: rgb(185, 92, 38);
+    color: rgb(162, 185, 32);
+    @include header(14px);
+}
+
+.header {
+    @include header(5px);
+}
+

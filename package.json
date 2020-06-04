@@ -1,0 +1,41 @@
+{
+  "name": "lesson_6",
+  "version": "1.0.0",
+  "description": "Hometask for lesson webpack",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --open",
+    "prod": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BukaPuma/lesson_6.git"
+  },
+  "keywords": [
+    "crtwev-bukapuma",
+    "lesson6-bukapuma"
+  ],
+  "author": "Rudenko Natalia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BukaPuma/lesson_6/issues"
+  },
+  "homepage": "https://github.com/BukaPuma/lesson_6#readme",
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "yarn": "^1.22.4"
+  }
+}
